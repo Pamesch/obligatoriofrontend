@@ -27,12 +27,49 @@ h5{
     padding-top: 2%;
 }
 footer{
-    background-color: rgb(22, 22, 47);
+    width: 100%;
+   
+    background-color: rgb(45, 45, 65);
+    padding: 2%
 
 }
-
-.listaFooter{
-    list-style-type: none;
+footer ul li{
     display: inline;
+    
+    
+    justify-content: space-evenly;
+    padding-left: 2%;
+    padding-right: 2%;
+   
+    
 
+}
+footer ul{
+    list-style: none;
+   text-align: center;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgb(234, 246, 242);
+}
+
+form{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+}
+.oracion{
+    text-align: center;
+    padding-bottom: 2%;
+}
+.oracion2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    color: darkgrey;
+}
+#tarjetasSecundarias{
+    background-color: darkslategrey;
+    color: aliceblue;
+  
+   
 }
