@@ -116,54 +116,65 @@
         
     </main>
     <!--cards secundarias-->
-    <div>
-        <div class="container-fluid" >
+    <div >
+        <div class="container-fluid p-0 m-0" >
             <div class="row">
               <div class="col">
-                <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu" width="450%">
+                <img src="./img/honolulu.jpg" class="img-fluid" alt="honolulu" width="100%">
               </div>
-              <div class="col">
+              <div class="col" id="tarjetasSecundarias">
                 <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <h5 class="card-title">Bs As - Octubre</h5>
+                  <p class="card-text">Buenos Aires es la provincia más poblada de Argentina. Honolulu en Estados Unidos es la más sureña entre las principales ciudades estadounidenses. Aunque el nombre Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu es una ciudad-condado consolidada.</p>
+                  <button type="button" class="btn btn-outline-light">Conoce más</button>
                 </div>
               </div>
             </div>
           </div>
     </div>
     <!--formulario inscripción-->
-    <form action="">
-        <p class="subtitulos"><h5 style="text-align: center;">Conviértete en</h5> <br>
-            <h3 style="text-align: center;">ORADOR</h3></p>
+   
+        
+            <form>
+                <p class="subtitulos"><h5 style="text-align: center;">Conviértete en</h5> <br>
+                    <h3 style="text-align: center;">ORADOR</h3></p><br>
+                    <p class="oracion">Anótate como orador para dar una <a href="">Charla ignite</a>. Cuéntanos de qué quieres hablar!</p>
+                    <div class="row g-2">
+                        <div class="col-md">
+                          <div class="form-floating">
+                            <input type="email" class="form-control" id="floatingInputGrid" >
+                            <label for="floatingInputGrid">Nombre</label>
+                          </div>
+                        </div>
+                        <div class="col-md">
+                            <div class="form-floating">
+                              <input type="email" class="form-control" id="floatingInputGrid"  >
+                              <label for="floatingInputGrid">Apellido</label>
+                            </div>
+                          </div>
+                      </div>
+              <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label"></label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder= "Cuéntanos de qué quieres hablar." ></textarea>
+                <p class="oracion2">Recuerda indicar un título para tu charla</p>  
+                </div>
+        
+                <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-success ">Enviar</button>
+            </div>
+              </form>
 
-    </form>
     <!--footer-->
     <footer>
-        <ul class="listaFooter" >
-            <li>
-                <a href="">Preguntas frecuentes</a>
-            </li>
-            <li>
-                <a href="">Contáctanos</a>
-            </li>
-            <li>
-                <a href="">Prensa</a>
-            </li>
-            <li>
-                <a href="">Conferencias</a>
-            </li>
-            <li>
-                <a href="">Términos y condiciones</a>
-            </li>
-            <li>
-                <a href="">Privacidad</a>
-            </li>
-            <li>
-                <a href="">Estudiantes</a>
-            </li>
-        </ul>
-
+     <ul>
+        <li><a href=""> Preguntas Frecuentes</a></li>
+        <li><a href="">Contáctanos</a></li>
+        <li><a href="">Prensa</a></li>
+        <li><a href="">Conferencias</a></li>
+        <li><a href="">Términos y condiciones</a></li>
+        <li><a href="">Privacidad</a></li>
+        <li><a href="">Estudiantes</a></li>
+     </ul>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
