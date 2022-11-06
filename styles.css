@@ -73,3 +73,43 @@ form{
   
    
 }
+
+#tarjetasCompra{
+    
+    margin: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#letraChica{
+    font-size: small;
+}
+
+.tituloVenta{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    width: 100%;
+
+}
+
+.valorTicket{
+    font-size: 44px;
+    font-weight: bold;
+}
+
+#botonResumen{
+    border-color: rgb(96, 192, 1);
+    background-color: rgb(96, 192, 1);
+    
+   
+}
+
+#botonBorrar{
+    border-color: rgb(96, 192, 1);
+    color:  rgb(96, 192, 1);
+    background-color: white;
+}
+
