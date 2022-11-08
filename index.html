@@ -11,7 +11,7 @@
 <body>
     <!--barra navegacion principal-->
     
-      <nav class="navbar navbar-expand-lg pl-3 pr-3" id="navBar">
+      <nav class="navbar navbar-expand-lg pl-3 pr-3 fixed-top" id="navBar">
 
         <div class="container-fluid">
             <a class="navbar-brand pt-3" style="color: white;" href="#">
@@ -27,13 +27,13 @@
                 <a class="nav-link active fw-semibold" aria-current="page" href="#" style="color: white;">La conferencia</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color: rgb(219, 213, 213);">Los oradores</a>
+                <a class="nav-link" href="#contenedorCards" style="color: rgb(219, 213, 213);">Los oradores</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color: rgb(219, 213, 213);">Lugar y Fecha</a>
+                <a class="nav-link" href="#lugar" style="color: rgb(219, 213, 213);">Lugar y Fecha</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" style="color: rgb(219, 213, 213);">Conviértete en orador</a>
+                <a class="nav-link" href="#orador" style="color: rgb(219, 213, 213);">Conviértete en orador</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="../trabajo_obligatorio_front_end/html/comprar-ticket.html" style="color: rgb(59, 155, 17);">Comprar tickets</a>
@@ -117,7 +117,7 @@
         
     </main>
     <!--cards secundarias-->
-    <div >
+    <div id="lugar">
         <div class="container-fluid p-0 m-0" >
             <div class="row">
               <div class="col">
@@ -136,7 +136,7 @@
     <!--formulario inscripción-->
    
         
-            <form>
+            <form id="orador">
                 <p class="subtitulos"><h5 style="text-align: center;">Conviértete en</h5> <br>
                     <h3 style="text-align: center;">ORADOR</h3></p><br>
                     <p class="oracion">Anótate como orador para dar una <a href="">Charla ignite</a>. Cuéntanos de qué quieres hablar!</p>
@@ -166,7 +166,7 @@
               </form>
 
     <!--footer-->
-    <footer>
+    <footer class=fixed-bottom>
      <ul>
         <li><a href=""> Preguntas Frecuentes</a></li>
         <li><a href="">Contáctanos</a></li>

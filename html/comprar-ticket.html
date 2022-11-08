@@ -83,33 +83,41 @@
     </div>
 
 
-    <form class="row g-2">
+    <form id="formulario" class="row g-2">
         <div class="col mb-3">
-            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
+            <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre" id="nombre">
           </div>
           <div class="col mb-3">
-            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido">
+            <input type="text" class="form-control" placeholder="Apellido" aria-label="Apellido" id="apellido">
           </div>
         <div class="col-12 mb-3">
-            <input type="text" class="form-control" placeholder="Correo" aria-label="Correo">
-        </div>
+            <input type="text" class="form-control" placeholder="Correo" aria-label="Correo" id="correo">
+       
+          </div>
+          <div>
+            <p id="mensajeNombre" class="text-danger"></p>
+            <p id="mensajeApellido" class="text-danger"></p>
+            <p id="mensajeEmail" class="text-danger"></p>
+          </div>
         
         <div class="col-md-6">
-          <label for="inputCity" class="form-label">Cantidad</label>
-          <input type="text" class="form-control" id="inputCity">
+          <label for="cantidad" class="form-label">Cantidad</label>
+          <input type="number" class="form-control" id="cantidad" name="cantidad">
         </div>
         <div class="col-md-6 mb-3">
           <label for="categoriaSelect" class="form-label">Categoría</label>
-          <select id="categoriaSelect" class="form-select">
-            <option selected value="">**Seleccione**</option>
-            <option value="1">Estudiante</option>
-            <option value="2">Trainee</option>
-            <option value="3">Junior</option>
+          <select id="categoriaOpcion" class="form-select">
+            <option value="0" selected >**Seleccione Categoría**</option>
+            <option value="1">Sin Categoría</option>
+            <option value="2">Estudiante</option>
+            <option value="3">Trainee</option>
+            <option value="4">Junior</option>
           </select>
         </div>
       
         <div class="alert alert-primary mb-3" role="alert">
-            Total a pagar: $ <span id="totalPago" class="align-middle"></span>
+
+           <span id="totalPago" class="align-middle">  Total a pagar: $ </span>
         </div>
 
         <div class="row g-2 w-100 container-fluid">
